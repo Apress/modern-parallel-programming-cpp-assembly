@@ -1,0 +1,53 @@
+;-------------------------------------------------
+;               cmpequ.asmh
+;-------------------------------------------------
+
+; Basic compare predicates for floating-point
+CMP_EQ_OQ       equ 00h
+CMP_LT_OS       equ 01h
+CMP_LE_OS       equ 02h
+CMP_UNORD_Q     equ 03h
+CMP_NEQ_UQ      equ 04h
+CMP_NLT_US      equ 05h
+CMP_GE_US       equ 05h
+CMP_NLE_US      equ 06h
+CMP_GT_US       equ 06h
+CMP_ORD_Q       equ 07h
+
+; Extended compare predicates for floating-point
+CMP_EQ_UQ       equ 08h
+CMP_NGE_US      equ 09h
+CMP_NGT_US      equ 0ah
+CMP_FALSE_OQ    equ 0bh
+CMP_NEQ_OQ      equ 0ch
+CMP_GE_OS       equ 0dh
+CMP_GT_OS       equ 0eh
+CMP_TRUE_UQ     equ 0fh
+CMP_EQ_OS       equ 10h
+CMP_LT_OQ       equ 11h
+CMP_LE_OQ       equ 12h
+CMP_UNORD_S     equ 13h
+CMP_NEQ_US      equ 14h
+CMP_NLT_UQ      equ 15h
+CMP_NLE_UQ      equ 16h
+CMP_ORD_S       equ 17h
+CMP_EQ_US       equ 18h
+CMP_NGE_UQ      equ 19h
+CMP_NGT_UQ      equ 1ah
+CMP_FALSE_OS    equ 1bh
+CMP_NEQ_OS      equ 1ch
+CMP_GE_OQ       equ 1dh
+CMP_GT_OQ       equ 1eh
+CMP_TRUE_US     equ 1fh
+
+; Compare predicates for packed integers
+CMP_EQ          equ 00h
+CMP_LT          equ 01h
+CMP_LE          equ 02h
+CMP_FALSE       equ 03h
+CMP_NEQ         equ 04h
+CMP_NLT         equ 05h
+CMP_GE          equ 05h
+CMP_NLE         equ 06h
+CMP_GT          equ 06h
+CMP_TRUE        equ 07h

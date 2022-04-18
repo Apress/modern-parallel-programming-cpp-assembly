@@ -1,0 +1,5 @@
+The source code can be used with Visual Studio 2022. The first time a chapter
+solution is opened with Visual Studio 2022, a “Review Solution Actions” dialog
+will appear on the screen (see accompanying JPG file for an example). When
+this dialog box appears, click on “OK” to upgrade the project for use with
+Visual Studio 2022.
